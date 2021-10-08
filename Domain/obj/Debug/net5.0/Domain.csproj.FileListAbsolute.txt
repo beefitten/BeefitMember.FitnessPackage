@@ -1,0 +1,15 @@
+/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/bin/Debug/net5.0/Domain.deps.json
+/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/bin/Debug/net5.0/Domain.dll
+/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/bin/Debug/net5.0/ref/Domain.dll
+/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/bin/Debug/net5.0/Domain.pdb
+/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/bin/Debug/net5.0/Persistence.dll
+/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/bin/Debug/net5.0/Persistence.pdb
+/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/obj/Debug/net5.0/Domain.csprojAssemblyReference.cache
+/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/obj/Debug/net5.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/obj/Debug/net5.0/Domain.AssemblyInfoInputs.cache
+/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/obj/Debug/net5.0/Domain.AssemblyInfo.cs
+/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/obj/Debug/net5.0/Domain.csproj.CoreCompileInputs.cache
+/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/obj/Debug/net5.0/Domain.csproj.CopyComplete
+/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/obj/Debug/net5.0/Domain.dll
+/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/obj/Debug/net5.0/ref/Domain.dll
+/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/obj/Debug/net5.0/Domain.pdb
