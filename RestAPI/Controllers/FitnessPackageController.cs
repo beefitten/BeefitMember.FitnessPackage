@@ -29,7 +29,6 @@ namespace RestAPI.Controllers
         }
         
         [HttpGet]
-        [Authorize]
         [Route("/getFitnessPackage/{name}")]
         public async Task<FitnessPackageReturnModel> GetUserInforation(string name)
         {
