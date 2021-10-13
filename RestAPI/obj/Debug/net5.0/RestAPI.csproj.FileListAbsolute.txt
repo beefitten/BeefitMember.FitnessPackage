@@ -109,3 +109,13 @@ D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\RestAPI\obj\Debug\
 D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\RestAPI\obj\Debug\net5.0\ref\RestAPI.dll
 D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\RestAPI\obj\Debug\net5.0\RestAPI.pdb
 D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\RestAPI\obj\Debug\net5.0\RestAPI.genruntimeconfig.cache
+<<<<<<< Updated upstream
+=======
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\RestAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\RestAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\RestAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\RestAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\RestAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\RestAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\RestAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+>>>>>>> Stashed changes

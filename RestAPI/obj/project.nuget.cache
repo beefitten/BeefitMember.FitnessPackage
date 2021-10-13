@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0lOR3fufKDlU8RqW3Of48GiTYhzh8pd32b+ZESIQ2SRhRd8LHv4I3x9/uXRmhJItQ0zSh2Mu1pY+3Ricanmuzg==",
+  "dgSpecHash": "TTaEkzrRPEdJDGjf/TfoPJUwS3u/vYL3XZJi/3oRfhQIa9hnIL/DX9lFiwDMkVFZ+Tkj8CUa1yFLTUdE/Uut3w==",
   "success": true,
   "projectFilePath": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\RestAPI\\RestAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jonas\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.10\\microsoft.aspnetcore.authentication.jwtbearer.5.0.10.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0-rc.1.21451.13\\microsoft.extensions.configuration.6.0.0-rc.1.21451.13.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0-rc.1.21451.13\\microsoft.extensions.configuration.abstractions.6.0.0-rc.1.21451.13.nupkg.sha512",
@@ -16,6 +18,11 @@
     "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\6.0.0-rc.1.21451.13\\microsoft.extensions.fileproviders.physical.6.0.0-rc.1.21451.13.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0-rc.1.21451.13\\microsoft.extensions.filesystemglobbing.6.0.0-rc.1.21451.13.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0-rc.1.21451.13\\microsoft.extensions.primitives.6.0.0-rc.1.21451.13.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.7.1\\microsoft.identitymodel.jsonwebtokens.6.7.1.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.identitymodel.logging\\6.7.1\\microsoft.identitymodel.logging.6.7.1.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.7.1\\microsoft.identitymodel.protocols.6.7.1.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.7.1\\microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.7.1\\microsoft.identitymodel.tokens.6.7.1.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
@@ -59,6 +66,7 @@
     "C:\\Users\\Jonas\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\system.globalization.calendars\\4.3.0\\system.globalization.calendars.4.3.0.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\system.globalization.extensions\\4.3.0\\system.globalization.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.7.1\\system.identitymodel.tokens.jwt.6.7.1.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\system.io.compression\\4.3.0\\system.io.compression.4.3.0.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\system.io.compression.zipfile.4.3.0.nupkg.sha512",
@@ -86,7 +94,7 @@
     "C:\\Users\\Jonas\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0\\system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\system.runtime.numerics\\4.3.0\\system.runtime.numerics.4.3.0.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\system.security.cryptography.algorithms\\4.3.0\\system.security.cryptography.algorithms.4.3.0.nupkg.sha512",
-    "C:\\Users\\Jonas\\.nuget\\packages\\system.security.cryptography.cng\\4.3.0\\system.security.cryptography.cng.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\system.security.cryptography.csp\\4.3.0\\system.security.cryptography.csp.4.3.0.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\system.security.cryptography.encoding\\4.3.0\\system.security.cryptography.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\system.security.cryptography.openssl\\4.3.0\\system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -105,5 +113,12 @@
     "C:\\Users\\Jonas\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\RestAPI\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

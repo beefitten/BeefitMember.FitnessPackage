@@ -7,5 +7,6 @@ namespace Persistence.Repository.FitnessPackage
     public interface IFitnessPackageRepository
     {
         Task<HttpStatusCode> CreateFitnessPackage(FitnessPackageModel model);
+        Task<FitnessPackageReturnModel> GetFitnessPackage(string name);
     }
 }

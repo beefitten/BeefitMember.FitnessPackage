@@ -29,9 +29,9 @@ namespace Domain.Services.FitnessPackages
             return await _fitnessPackageRepository.CreateFitnessPackage(fitnessPackageModel);
         }
 
-        public Task<string> GetFitnessPackage(string name)
+        public async Task<FitnessPackageReturnModel> GetFitnessPackage(string name)
         {
-            throw new System.NotImplementedException();
+            return await _fitnessPackageRepository.GetFitnessPackage(name);
         }
     }
 }

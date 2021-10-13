@@ -4,6 +4,8 @@ using System.Threading.Tasks;
 using Domain.Services.FitnessPackages;
 using Microsoft.AspNetCore.Mvc;
 using Domain.Services.FitnessPackages.Models;
+using Microsoft.AspNetCore.Authorization;
+using Persistence.Models.FitnessPackage;
 
 
 namespace RestAPI.Controllers
@@ -25,6 +27,13 @@ namespace RestAPI.Controllers
         {
            return await _fitnessPackageService.CreatePackage(model);
         }
-
+        
+        [HttpGet]
+        [Authorize]
+        [Route("/getFitnessPackage/{name}")]
+        public async Task<FitnessPackageReturnModel> GetUserInforation(string name)
+        {
+            return await _fitnessPackageService.GetFitnessPackage(name);
+        }
     }
 }

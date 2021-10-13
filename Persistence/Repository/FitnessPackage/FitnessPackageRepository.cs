@@ -34,5 +34,27 @@ namespace Persistence.Repository.FitnessPackage
                 return HttpStatusCode.Conflict;
             }
         }
+
+        public async Task<FitnessPackageReturnModel> GetFitnessPackage(string name)
+        {
+            if (name == null)
+                throw new Exception("Name cannot be null!");
+
+            var model = await _fitnessPackageCollection
+                .Find<FitnessPackageModel>(fitness => fitness.Name == name)
+                .FirstOrDefaultAsync();
+
+            if (model == null)
+                throw new Exception("Fitness not found");
+
+            return new FitnessPackageReturnModel
+            {
+                Name = model.Name,
+                Logo = model.Logo,
+                Features = model.Features,
+                PrimaryColor = model.PrimaryColor,
+                SecondaryColor = model.SecondaryColor
+            };
+        }
     }
 }
