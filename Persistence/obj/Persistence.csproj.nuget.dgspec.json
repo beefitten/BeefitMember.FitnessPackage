@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Persistence/Persistence.csproj": {}
+    "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Persistence/Persistence.csproj": {
+    "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Persistence/Persistence.csproj",
+        "projectUniqueName": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Persistence/Persistence.csproj",
-        "packagesPath": "/Users/thanhpham/.nuget/packages/",
-        "outputPath": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Persistence/obj/",
+        "projectPath": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
+        "outputPath": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/thanhpham/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jonas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Jonas\\.dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -10,3 +10,15 @@
 /Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Persistence/obj/Debug/net5.0/Persistence.dll
 /Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Persistence/obj/Debug/net5.0/ref/Persistence.dll
 /Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Persistence/obj/Debug/net5.0/Persistence.pdb
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\Persistence\bin\Debug\net5.0\Persistence.deps.json
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\Persistence\bin\Debug\net5.0\Persistence.dll
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\Persistence\bin\Debug\net5.0\Persistence.pdb
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\Persistence\obj\Debug\net5.0\Persistence.csprojAssemblyReference.cache
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\Persistence\obj\Debug\net5.0\Persistence.dll
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\Persistence\obj\Debug\net5.0\Persistence.pdb
