@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
 using MongoDB.Driver;
@@ -55,6 +56,29 @@ namespace Persistence.Repository.FitnessPackage
                 PrimaryColor = model.PrimaryColor,
                 SecondaryColor = model.SecondaryColor
             };
+        }
+
+        public async Task<List<FitnessPackageReturnModel>> GetAllFitnessPackage()
+        {
+            var model = await _fitnessPackageCollection.Find(fitnessPackage => true).ToListAsync();
+
+            var newFitnessPackageList = new List<FitnessPackageReturnModel>();
+            
+            foreach (var fitnessPackage in model)
+            {
+                var package = new FitnessPackageReturnModel
+                {
+                    Name = fitnessPackage.Name,
+                    Logo = fitnessPackage.Logo,
+                    Features = fitnessPackage.Features,
+                    PrimaryColor = fitnessPackage.PrimaryColor,
+                    SecondaryColor = fitnessPackage.SecondaryColor
+                };
+                
+                newFitnessPackageList.Add(package);
+            }
+            
+            return newFitnessPackageList;
         }
     }
 }

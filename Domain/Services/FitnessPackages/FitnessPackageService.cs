@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
 using Domain.Services.FitnessPackages.Models;
@@ -32,6 +33,11 @@ namespace Domain.Services.FitnessPackages
         public async Task<FitnessPackageReturnModel> GetFitnessPackage(string name)
         {
             return await _fitnessPackageRepository.GetFitnessPackage(name);
+        }
+
+        public async Task<List<FitnessPackageReturnModel>> GetAllFitnessPackage()
+        {
+            return await _fitnessPackageRepository.GetAllFitnessPackage();
         }
     }
 }

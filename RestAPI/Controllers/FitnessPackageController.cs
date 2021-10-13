@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
 using Domain.Services.FitnessPackages;
@@ -33,6 +34,13 @@ namespace RestAPI.Controllers
         public async Task<FitnessPackageReturnModel> GetUserInforation(string name)
         {
             return await _fitnessPackageService.GetFitnessPackage(name);
+        }
+        
+        [HttpGet]
+        [Route("/getAllFitnessPackage")]
+        public async Task<List<FitnessPackageReturnModel>> GetAllFitnessPackage()
+        {
+            return await _fitnessPackageService.GetAllFitnessPackage();
         }
     }
 }

@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
 using Domain.Services.FitnessPackages.Models;
@@ -9,5 +10,6 @@ namespace Domain.Services.FitnessPackages
     {
         Task<HttpStatusCode> CreatePackage(CreateFitnessPackageModel model);
         Task<FitnessPackageReturnModel> GetFitnessPackage(string name);
+        Task<List<FitnessPackageReturnModel>> GetAllFitnessPackage();
     }
 }
