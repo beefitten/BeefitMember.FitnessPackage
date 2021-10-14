@@ -29,6 +29,8 @@ namespace RestAPI
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "RestAPI", Version = "v1"});
             });
 
+            services.AddCors(options => options.AddDefaultPolicy(builder => builder.AllowAnyOrigin()));
+            
             services.AddDomain();
             services.AddPersistence();
         }
@@ -46,6 +48,8 @@ namespace RestAPI
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors();
 
             app.UseAuthorization();
 
