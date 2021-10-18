@@ -11,5 +11,6 @@ namespace Domain.Services.FitnessPackages
         Task<HttpStatusCode> CreatePackage(CreateFitnessPackageModel model);
         Task<FitnessPackageReturnModel> GetFitnessPackage(string name);
         Task<List<FitnessPackageReturnModel>> GetAllFitnessPackage();
+        Task<HttpStatusCode> DeleteFitnessPackage(string name);
     }
 }

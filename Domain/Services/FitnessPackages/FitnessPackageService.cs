@@ -39,5 +39,10 @@ namespace Domain.Services.FitnessPackages
         {
             return await _fitnessPackageRepository.GetAllFitnessPackage();
         }
+
+        public async Task<HttpStatusCode> DeleteFitnessPackage(string name)
+        {
+            return await _fitnessPackageRepository.DeleteFitnessPackage(name);
+        }
     }
 }

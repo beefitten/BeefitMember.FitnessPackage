@@ -80,5 +80,21 @@ namespace Persistence.Repository.FitnessPackage
             
             return newFitnessPackageList;
         }
+
+        public async Task<HttpStatusCode> DeleteFitnessPackage(string name)
+        {
+            if (name == null)
+                throw new Exception("name cannot be null");
+
+            try
+            {
+                await _fitnessPackageCollection.DeleteOneAsync(model => model.Name == name);
+                return HttpStatusCode.OK;
+            }
+            catch (Exception e)
+            {
+                return HttpStatusCode.Conflict;
+            }
+        }
     }
 }

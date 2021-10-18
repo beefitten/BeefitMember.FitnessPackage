@@ -42,5 +42,12 @@ namespace RestAPI.Controllers
         {
             return await _fitnessPackageService.GetAllFitnessPackage();
         }
+
+        [HttpDelete]
+        [Route("/deleteFitnessPackage/{name}")]
+        public async Task<HttpStatusCode> DeleteFitnessPackage(string name)
+        {
+            return await _fitnessPackageService.DeleteFitnessPackage(name);
+        }
     }
 }

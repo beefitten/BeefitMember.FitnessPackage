@@ -10,5 +10,6 @@ namespace Persistence.Repository.FitnessPackage
         Task<HttpStatusCode> CreateFitnessPackage(FitnessPackageModel model);
         Task<FitnessPackageReturnModel> GetFitnessPackage(string name);
         Task<List<FitnessPackageReturnModel>> GetAllFitnessPackage();
+        Task<HttpStatusCode> DeleteFitnessPackage(string name);
     }
 }
