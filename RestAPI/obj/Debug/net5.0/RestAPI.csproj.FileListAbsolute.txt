@@ -119,3 +119,4 @@ D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\RestAPI\bin\Debug\
 D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\RestAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\RestAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
 >>>>>>> Stashed changes
+D:\Skole\7. semester\Bachelor\Git\BeefitMember.FitnessPackage\RestAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
