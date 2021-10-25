@@ -13,6 +13,7 @@ namespace RestAPI
 {
     public class Startup
     {
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -29,8 +30,16 @@ namespace RestAPI
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "RestAPI", Version = "v1"});
             });
 
-            services.AddCors(options => options.AddDefaultPolicy(builder => builder.AllowAnyOrigin()));
-            
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                    builder =>
+                    {
+                        builder.WithOrigins("https://testbeefitconfiguration.azurewebsites.net/",
+                            "https://beefitmemberuser.azurewebsites.net");
+                    });
+            });
+
             services.AddDomain();
             services.AddPersistence();
         }
