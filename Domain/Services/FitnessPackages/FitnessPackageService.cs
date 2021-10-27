@@ -23,8 +23,18 @@ namespace Domain.Services.FitnessPackages
                 Name = model.Name,
                 PrimaryColor = model.PrimaryColor,
                 SecondaryColor =  model.SecondaryColor,
+                ThirdColor = model.ThirdColor,
+                BackgroundColor = model.BackgroundColor,
+                BorderRadius = model.BorderRadius,
+                Elevation = model.Elevation,
                 Logo = model.Logo,
-                Features = model.Features
+                Features = model.Features,
+                OverView = model.OverView,
+                WeightGoal = model.WeightGoal,
+                CenterInformation = model.CenterInformation,
+                More = model.More,
+                Fonts = model.Font,
+                Bookings = model.Bookings
             };
 
             return await _fitnessPackageRepository.CreateFitnessPackage(fitnessPackageModel);

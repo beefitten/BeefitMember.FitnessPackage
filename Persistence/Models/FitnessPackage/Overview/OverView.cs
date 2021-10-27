@@ -1,6 +1,6 @@
-namespace Persistence.Models.FitnessPackage
+namespace Persistence.Models.FitnessPackage.Overview
 {
-    public enum Features
+    public enum OverView
     {
         Bookings,
         TrainingProgression,

@@ -55,7 +55,17 @@ namespace Persistence.Repository.FitnessPackage
                 Logo = model.Logo,
                 Features = model.Features,
                 PrimaryColor = model.PrimaryColor,
-                SecondaryColor = model.SecondaryColor
+                SecondaryColor = model.SecondaryColor,
+                ThirdColor = model.ThirdColor,
+                BackgroundColor = model.BackgroundColor,
+                BorderRadius = model.BorderRadius,
+                Elevation = model.Elevation,
+                OverView = model.OverView,
+                WeightGoal = model.WeightGoal,
+                CenterInformation = model.CenterInformation,
+                More = model.More,
+                Font = model.Fonts,
+                Bookings = model.Bookings
             };
         }
 
@@ -73,7 +83,17 @@ namespace Persistence.Repository.FitnessPackage
                     Logo = fitnessPackage.Logo,
                     Features = fitnessPackage.Features,
                     PrimaryColor = fitnessPackage.PrimaryColor,
-                    SecondaryColor = fitnessPackage.SecondaryColor
+                    SecondaryColor = fitnessPackage.SecondaryColor,
+                    ThirdColor = fitnessPackage.ThirdColor,
+                    BackgroundColor = fitnessPackage.BackgroundColor,
+                    BorderRadius = fitnessPackage.BorderRadius,
+                    Elevation = fitnessPackage.Elevation,
+                    OverView = fitnessPackage.OverView,
+                    WeightGoal = fitnessPackage.WeightGoal,
+                    CenterInformation = fitnessPackage.CenterInformation,
+                    More = fitnessPackage.More,
+                    Font = fitnessPackage.Fonts,
+                    Bookings = fitnessPackage.Bookings
                 };
                 
                 newFitnessPackageList.Add(package);
