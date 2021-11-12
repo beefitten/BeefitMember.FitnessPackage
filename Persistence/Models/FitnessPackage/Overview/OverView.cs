@@ -2,7 +2,8 @@ namespace Persistence.Models.FitnessPackage.Overview
 {
     public enum OverView
     {
-        Bookings,
+        YourBookings,
+        Appointments,
         TrainingProgression,
         GymInformation,
     }
