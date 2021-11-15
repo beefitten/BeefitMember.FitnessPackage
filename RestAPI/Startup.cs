@@ -30,16 +30,16 @@ namespace RestAPI
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "RestAPI", Version = "v1"});
             });
 
-            services.AddCors(options =>
-            {
-                options.AddPolicy(name: MyAllowSpecificOrigins,
-                    builder =>
-                    {
-                        builder.WithOrigins("https://testbeefitconfiguration.azurewebsites.net/",
-                            "https://beefitmemberuser.azurewebsites.net");
-                    });
-            });
-
+            // services.AddCors(options =>
+            // {
+            //     options.AddPolicy(name: MyAllowSpecificOrigins,
+            //         builder =>
+            //         {
+            //             builder.WithOrigins("https://testbeefitconfiguration.azurewebsites.net/",
+            //                 "https://beefitmemberuser.azurewebsites.net");
+            //         });
+            // });
+            services.AddCors();
             services.AddDomain();
             services.AddPersistence();
         }
@@ -58,7 +58,12 @@ namespace RestAPI
 
             app.UseRouting();
 
-            app.UseCors();
+            app.UseCors(x => x
+                .SetIsOriginAllowed(y => _ = true)
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowCredentials()
+            );
 
             app.UseAuthorization();
 
