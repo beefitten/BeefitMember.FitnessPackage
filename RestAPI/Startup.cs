@@ -24,22 +24,21 @@ namespace RestAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options => {
+                options.AddDefaultPolicy(builder => {
+                    builder
+                        .AllowAnyOrigin()
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                });
+            });
+            
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "RestAPI", Version = "v1"});
             });
-
-            // services.AddCors(options =>
-            // {
-            //     options.AddPolicy(name: MyAllowSpecificOrigins,
-            //         builder =>
-            //         {
-            //             builder.WithOrigins("https://testbeefitconfiguration.azurewebsites.net/",
-            //                 "https://beefitmemberuser.azurewebsites.net");
-            //         });
-            // });
-            services.AddCors();
+            
             services.AddDomain();
             services.AddPersistence();
         }
@@ -58,13 +57,8 @@ namespace RestAPI
 
             app.UseRouting();
 
-            app.UseCors(x => x
-                .SetIsOriginAllowed(y => _ = true)
-                .AllowAnyMethod()
-                .AllowAnyHeader()
-                .AllowCredentials()
-            );
-
+            app.UseCors();
+            
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
