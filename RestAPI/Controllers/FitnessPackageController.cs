@@ -1,12 +1,9 @@
-using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
 using Domain.Services.FitnessPackages;
 using Microsoft.AspNetCore.Mvc;
 using Domain.Services.FitnessPackages.Models;
-using Microsoft.AspNetCore.Authorization;
-using MongoDB.Bson.IO;
 using Persistence.Models.FitnessPackage;
 
 

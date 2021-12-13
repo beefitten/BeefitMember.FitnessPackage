@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Tests\\Tests.csproj": {}
+    "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Tests/Tests.csproj": {}
   },
   "projects": {
-    "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Domain\\Domain.csproj": {
+    "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Domain\\Domain.csproj",
+        "projectUniqueName": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
-        "outputPath": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Domain\\obj\\",
+        "projectPath": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/Domain.csproj",
+        "packagesPath": "/Users/thanhpham/.nuget/packages/",
+        "outputPath": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jonas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/thanhpham/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -26,8 +26,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Persistence\\Persistence.csproj": {
-                "projectPath": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Persistence\\Persistence.csproj"
+              "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Persistence/Persistence.csproj": {
+                "projectPath": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Persistence/Persistence.csproj"
               }
             }
           }
@@ -62,21 +62,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Jonas\\.dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Persistence\\Persistence.csproj": {
+    "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Persistence/Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Persistence/Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
-        "outputPath": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Persistence\\obj\\",
+        "projectPath": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Persistence/Persistence.csproj",
+        "packagesPath": "/Users/thanhpham/.nuget/packages/",
+        "outputPath": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Persistence/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jonas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/thanhpham/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -132,21 +132,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Jonas\\.dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\RestAPI\\RestAPI.csproj": {
+    "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/RestAPI/RestAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\RestAPI\\RestAPI.csproj",
+        "projectUniqueName": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/RestAPI/RestAPI.csproj",
         "projectName": "RestAPI",
-        "projectPath": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\RestAPI\\RestAPI.csproj",
-        "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
-        "outputPath": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\RestAPI\\obj\\",
+        "projectPath": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/RestAPI/RestAPI.csproj",
+        "packagesPath": "/Users/thanhpham/.nuget/packages/",
+        "outputPath": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/RestAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jonas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/thanhpham/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -158,8 +158,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Domain\\Domain.csproj"
+              "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/Domain.csproj": {
+                "projectPath": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/Domain.csproj"
               }
             }
           }
@@ -213,21 +213,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Jonas\\.dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Tests\\Tests.csproj": {
+    "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Tests/Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Tests\\Tests.csproj",
+        "projectUniqueName": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Tests/Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Tests\\Tests.csproj",
-        "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
-        "outputPath": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Tests\\obj\\",
+        "projectPath": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Tests/Tests.csproj",
+        "packagesPath": "/Users/thanhpham/.nuget/packages/",
+        "outputPath": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jonas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/thanhpham/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -239,14 +239,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Domain\\Domain.csproj"
+              "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/Domain.csproj": {
+                "projectPath": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Domain/Domain.csproj"
               },
-              "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Persistence\\Persistence.csproj": {
-                "projectPath": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\Persistence\\Persistence.csproj"
+              "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Persistence/Persistence.csproj": {
+                "projectPath": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/Persistence/Persistence.csproj"
               },
-              "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\RestAPI\\RestAPI.csproj": {
-                "projectPath": "D:\\Skole\\7. semester\\Bachelor\\Git\\BeefitMember.FitnessPackage\\RestAPI\\RestAPI.csproj"
+              "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/RestAPI/RestAPI.csproj": {
+                "projectPath": "/Users/thanhpham/Documents/bachelor/BeefitMember.FitnessPackage/RestAPI/RestAPI.csproj"
               }
             }
           }
@@ -308,7 +308,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Jonas\\.dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }
